@@ -1,0 +1,144 @@
+/* font-family: 'DM Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Lato', sans-serif; 
+background-color: #C8D5D4;
+color: #410807
+
+*/
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  background-color: #dddddd;
+  color: #000000;
+  margin: 10px 2% 0 2%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+h4 {
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+button {
+  border: 1px solid #000000;
+  padding: 10px 15px 10px 15px;
+}
+article {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.margin-left-5 {
+  margin-left: 5%;
+}
+
+.margin-right-5 {
+  margin-right: 5%;
+}
+
+.margin-botton-20px {
+  margin-bottom: 20px;
+}
+
+.margin-bottom {
+  margin-bottom: 200px;
+}
+
+nav {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav--fixed {
+  display: flex;
+  justify-content: right;
+  padding: 5% 0% 0 5%;
+  box-shadow: 5px 10px;
+}
+
+.nav--wrapper--menu {
+  display: none;
+}
+
+.nav--wrapper--burger span {
+  display: block;
+  width: 33px;
+  height: 3px;
+  margin-bottom: 5px;
+  background: #5b5e6d;
+  border-radius: 3px;
+}
+
+header {
+  margin-left: 15%;
+  margin-top: 70%;
+  margin-bottom: 90%;
+}
+
+.btn-header {
+  border: 0px;
+  margin-top: 30px;
+  margin-right: 30px;
+  float: right;
+  background-color: red;
+  color: #ffffff;
+}
+
+.img-about {
+  background: url(../img/newlook.jpg) no-repeat center;
+  width: 100%;
+  min-height: 250px;
+  background-size: cover;
+  background-blend-mode: inherit;
+  background-color: #dddddd;
+}
+
+.text-title-H2 {
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
+
+.text-about-description {
+  margin-bottom: 200px;
+}
+
+.border-article {
+  border-top: 1px solid black;
+}
+
+.article-image {
+  width: 33%;
+}
